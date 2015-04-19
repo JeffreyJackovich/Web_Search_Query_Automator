@@ -2,6 +2,7 @@
 Automates a Google Web Search Query
 
 Automates a Google web search query via the following process:  
+
 1. Reads Strings in a designated CSV, perform a Google web search query, and returns respective URL's in descending SEO order (beginning with the highest ranking url) to the designated CSV row.   
 
 Requirements:
@@ -14,13 +15,16 @@ Requirements:
 3. Desired URL location indicated in the header row (Example: "Link1", "Link2").
 
 To Note:
+
   Keep, "pause" (line:17) at 5.0. 
   Shorter than 5.0 results in a, "503 Service Temporarily Unavailable" error.
 
 To modify the number of returned urls:
+
   Increase or decrease the number on: line 9. 
   Per number of desired urls, add the appropriate header row title at lines: 12 and 18.
 
 Program Duration:
+
   ~20 minutes via the following:
       176 rows, 3 links (per row), pause=5.0
