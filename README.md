@@ -5,6 +5,7 @@ Automates a Google web search query via the following process:
 1. Reads Strings in a designated CSV, perform a Google web search query, and returns respective URL's in descending SEO order (beginning with the highest ranking url) to the designated CSV row.   
 
 Requirements:
+
 1. A CSV (EX: "query_results.csv") with the following headers:
   Row 1, Column A: "Fruit"
   Row 2, Column B: "Link1"
