@@ -7,6 +7,7 @@ Automates a Google Web Search Query via the following process:
 Requirements:
 
   1. A CSV (EX: "query_results.csv") with indicated headers (see Example file headers below):
+    
     Row 1, Column A: "Fruit"
     Row 2, Column B: "Link1"
     Row 3, Column C: "Link2"
